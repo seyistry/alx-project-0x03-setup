@@ -1,10 +1,7 @@
 import Button from "@/components/common/Button";
 import { useRouter } from "next/router";
 import { Montserrat } from "next/font/google";
-
-interface PageRouteProps {
-  pageRoute: string;
-}
+import { PageRouteProps } from "@/interface";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat-sans",
